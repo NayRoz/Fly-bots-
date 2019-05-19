@@ -5,9 +5,24 @@ let prefix = ":"
 
 
 const warns = JSON.parse(fs.readFileSync('./warns.json'))
+const token = process.emv.token
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 client.login('NTc5MzIzNjUwNjY3MzE1MjMz.XOCD1Q.-n8nQHimjPigDCcyBOrAqhlJISw');
 
+bot.login(token);
 
 
 
